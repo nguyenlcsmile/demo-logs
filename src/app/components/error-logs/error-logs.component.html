@@ -1,298 +1,395 @@
 <main id="main" class="main">
     <div class="pagetitle">
-       <h1>Error Logs</h1>
+       <h1>System</h1>
         <nav>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
-                <li class="breadcrumb-item active">Error Logs</li>
+                <li class="breadcrumb-item active">System</li>
             </ol>
         </nav>
     </div>
-    <section class="section">
+    <section class="section dashboard">
         <div class="row">
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Robo</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#robotoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#roboweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#robomonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                      <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                      <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                         <li><a class="dropdown-item" href="#">Today</a></li>
+                         <li><a class="dropdown-item" href="#">This Week</a></li>
+                         <li><a class="dropdown-item" href="#">This Month</a></li>
+                      </ul>
+                   </div>
+                   <div class="card-body">
+                      <h5 class="card-title">Robo <span>| Today</span></h5>
+                      <div class="d-flex align-items-center">
+                         <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"> <i class="bi bi-phone-vibrate-fill"></i></div>
+                         <div class="ps-3">
+                            <h6>145</h6>
+                            <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                            <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="robotoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="roboweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="robomonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vtiger <span>| Today</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Vtiger</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#vtigerrobotoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#vtigerroboweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-contact1" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="vtigerrobotoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="vtigerroboweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="bordered-justified-contact1" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vymo <span>| This week</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-lg-3">
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pega CRM <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3">
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pega LOS <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Vymo</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#vymotoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#vymoweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#vymomonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="vymotoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="vymoweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="vymomonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">FINACLE <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pega CRM</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#pegacrmtoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#pegacrmweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#pegacrmmonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="pegacrmtoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="pegacrmweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="pegacrmmonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">SMS Gateway <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pega LOS</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#pegalostoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#pegalosweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#pegalosmonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="pegalostoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="pegalosweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="pegalosmonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Viet QR <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">FINACLE</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#finacletoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#finacleweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#finaclemonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="finacletoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="finacleweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="finaclemonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">FPT E CONTRACT <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">SMS Gateway</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#smsgatewaytoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#smsgatewayweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#smsgatewaymonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="smsgatewaytoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="smsgatewayweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="smsgatewaymonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CleverTab <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Viet QR</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#vietQRtoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#vietQRweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#vietQRmonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="vietQRtoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="vietQRweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="vietQRmonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">TUTUKA <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">FPT E CONTRACT</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#fpttoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#fptweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#fptmonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="fpttoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="fptweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="fptmonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">TASECO <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">CleverTab</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#cleverTabtoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#cleverTabweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#cleverTabmonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="cleverTabtoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="cleverTabweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="cleverTabmonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">HYPER VERGE <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">TUTUKA</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#tutukatoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#tutukaweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#tutukamonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="tutukatoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="tutukaweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="tutukamonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">BackBase <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">TASECO</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#tasecotoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#tasecoweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#tasecomonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="tasecotoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="tasecoweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="tasecomonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Appflyer <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">HYPER VERGE</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#hypervergetoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#hypervergeweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#hypervergemonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
+                <div class="card info-card sales-card">
+                   <div class="filter">
+                        <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <li><a class="dropdown-item" href="#">Today</a></li>
+                            <li><a class="dropdown-item" href="#">This Week</a></li>
+                            <li><a class="dropdown-item" href="#">This Month</a></li>
                         </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="hypervergetoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="hypervergeweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="hypervergemonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
-                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">BackBase (SAAS)</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#backbasetoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#backbasegeweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#backbasegemonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
-                        </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="backbasetoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="backbasegeweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="backbasegemonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Appflyer</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#appflyertoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#appflyergeweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#appflyergemonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
-                        </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="appflyertoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="appflyergeweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="appflyergemonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Concentrix (Call Center)</h5>
-                        <ul class="nav nav-tabs nav-tabs-bordered d-flex" id="borderedTabJustified" role="tablist">
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#conventrixtoday" type="button" role="tab" aria-controls="home" aria-selected="true">Today</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#concentrixweek" type="button" role="tab" aria-controls="profile" aria-selected="false">Week</button></li>
-                            <li class="nav-item flex-fill" role="presentation"> <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#concentrixmonth" type="button" role="tab" aria-controls="contact" aria-selected="false">Month</button></li>
-                        </ul>
-                        <div class="tab-content pt-2" id="borderedTabJustifiedContent">
-                            <div class="tab-pane fade show active" id="concentrixtoday" role="tabpanel" aria-labelledby="home-tab">Today</div>
-                            <div class="tab-pane fade" id="concentrixweek" role="tabpanel" aria-labelledby="profile-tab">Week</div>
-                            <div class="tab-pane fade" id="concentrixmonth" role="tabpanel" aria-labelledby="contact-tab">Month</div>
+                        <h5 class="card-title">Concentrix <span>| This month</span></h5>
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center"></div>
+                            <div class="ps-3">
+                                <h6>145</h6>
+                                <span class="text-success small pt-1 fw-bold">5</span> <span class="text-muted small pt-2 ps-1">success, </span>
+                                <span class="text-danger small pt-1 fw-bold">140</span> <span class="text-muted small pt-2 ps-1">failure</span>
+                            </div>
                         </div>
                     </div>
                 </div>
