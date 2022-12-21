@@ -8,6 +8,8 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ErrorLogsComponent } from './components/error-logs/error-logs.component';
+import { TransactionsComponent } from './components/transactions/transactions.component';
+import { FunctionalsComponent } from './components/functionals/functionals.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { ErrorLogsComponent } from './components/error-logs/error-logs.component
     SidebarComponent,
     DashboardComponent,
     ErrorLogsComponent,
+    TransactionsComponent,
+    FunctionalsComponent,
   ],
   imports: [
     BrowserModule,
