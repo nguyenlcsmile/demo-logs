@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'demo';
+  constructor() { }
+  ngOnInit(): void { }
+
+  ngAfterViewInit() {
+    let date = document.getElementsByClassName('datepicker-here');
+    console.log(date);
+  }
 }
